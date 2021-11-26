@@ -1,0 +1,35 @@
+html,
+body {
+  background-color: #e0e0e2;
+  color: #242331;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.formNote {
+  text-align: center;
+}
+.formNote TextField {
+}
+.menu {
+  position: absolute;
+  box-shadow: 0 0 20px 0 #ccc;
+  opacity: 1;
+  transition: opacity 0.5s linear;
+}
+.btmr {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+}
