@@ -13,7 +13,16 @@ module.exports = {
     },
     fontFamily: {
       'default': ['Saira Stencil One'],
-    }
+    },
+    height: {
+      bulle: "170px",
+      full: "100%",
+      screen: "100vh",
+    },
+    width: {
+      bulle: "260px",
+      full: "100%",
+    },
   },
   variants: {
     extend: {},

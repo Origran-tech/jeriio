@@ -5,6 +5,7 @@ import ContextMenu from "./context-menu/Menu";
 import FormNote from "./newnote.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faPen } from "@fortawesome/free-solid-svg-icons";
+import Bulle from "../components/Bulle";
 
 export default function Home() {
   return (
@@ -32,13 +33,13 @@ export default function Home() {
             <p className="marquee">
               <span>
                 Bienvenue Origran User ! Vous avez actuellement 0 notes, 0 notes
-                importantes, 0 notes archivés et 0 notes dans la corbeille.
+                importantes, 0 notes archivés et 0 notes dans la corbeille.&nbsp;
               </span>
             </p>
             <p className="marquee marquee2">
               <span>
-                Bienvenue Origran User ! Vous avez actuellement 0 notes, 0 notes
-                importantes, 0 notes archivés et 0 notes dans la corbeille.
+                 Bienvenue Origran User ! Vous avez actuellement 0 notes, 0 notes
+                importantes, 0 notes archivés et 0 notes dans la corbeille.&nbsp;
               </span>
             </p>
           </div>
@@ -47,8 +48,8 @@ export default function Home() {
             <FontAwesomeIcon icon={faBars} />
           </div>
         </div>
-        <div className="bg-origran-white bg-opacity-25 backdrop-filter backdrop-blur-sm">
-          <p>oui</p>
+        <div className="bg-origran-white bg-opacity-25 backdrop-filter backdrop-blur-sm" style={{height:"100vh", width:"100%"}}>
+          <Bulle />
         </div>
       </div>
     </div>

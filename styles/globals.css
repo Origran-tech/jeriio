@@ -22,3 +22,42 @@
     transform: translate(-100%, 0);
   }
 }
+.border {
+  border: 8px solid #f5b316;
+}
+.round {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+}
+.tri-right.border.btm-left-in:before {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 30px;
+  right: auto;
+  top: auto;
+  bottom: -40px;
+  border: 20px solid;
+  border-color: #f5b316 transparent transparent #f5b316;
+}
+.tri-right.btm-left-in:after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 38px;
+  right: auto;
+  top: auto;
+  bottom: -20px;
+  border: 12px solid;
+  border-color: #f5b316 transparent transparent #f5b316;
+}
+.troncate {
+  display: -webkit-box;
+  max-width: 260px;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
